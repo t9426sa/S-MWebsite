@@ -1,0 +1,1203 @@
+
+/*-----------------------------------------google fonts--------------------------------------*/
+/*-----------------------------------------google fonts--------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative|Nobile|Notable|Orbitron|Poiret+One|Quattrocento+Sans|Racing+Sans+One|Roboto|Taviraj&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Monoton|Rubik+Mono+One|Russo+One|Scheherazade|Syncopate|VT323&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Abel|Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+
+/*global command for box sizing to prevent layout issues with containers */
+* {box-sizing: border-box;}
+
+* {margin: 0px}
+
+img, header, main, nav, footer, section, article, figure, figcaption, aside {display:block;}
+
+ .grid {Display: none;}
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+
+
+
+/*--------------------------LIBRARY BLOCK GALLERY---------------------------*/
+
+
+
+.grid-L {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell-L {
+    width: 50%;
+  }
+  
+  .cell-L img {
+  display: block;
+}
+
+ .container-L {}  
+  
+
+.responsive-image-L {
+  max-width: 100%;
+} 
+
+
+
+.cell-L figure {   float: right;
+		   margin: 10px;
+           padding: 5px;
+		   background-color: #FFF;
+		   border: 1px solid #CCC;
+		   box-shadow: 1px 2px 1px #e7bc32;
+
+}
+.cell-L figcaption { text-align: center;
+		   font-size: 1vw;
+  font-style: italic;}
+
+
+/*----------------------BODY HEADER NAV--------------------------------*/
+/*----------------------BODY HEADER NAV--------------------------------*/
+/*----------------------BODY HEADER NAV--------------------------------*/
+
+
+
+/*--------BODY-*/
+body {
+      color:#555;
+      font-family: sans-serif, Helvetica, Arial;
+
+      line-height: 2em;
+      margin: 0px;
+   background-color:#a5b8b6;
+background-image:linear-gradient(to bottom, #FFFFFF, #a5b8b6);
+    background-repeat: no-repeat ;
+}
+
+
+/*--------HEADER-*/
+#main-header {height: 410px;
+              padding:0px;
+              background-color:grey;
+              margin: 0px;}
+
+
+#heroImage {background-image:url(../images/Welcome%20RVC.jpg);
+        background-blend-mode: lighten;
+        background-size:cover;
+        background-repeat: no-repeat;
+        width 100%;
+        height: 410px;
+        margin-bottom: 0px;
+        margin-top:35px;}
+
+
+#heroBanner {background-color: rgba(190, 190, 190, 0.43);
+           float:right;
+           width:70%;      
+           height:200px;
+           margin-left: 0px;
+           margin-top: 125px;
+           padding-top: 50px;
+    padding-left: 40px;}
+
+#heroBanner h1 {
+                 margin-top: 50px;
+                 padding-left: 50px;
+                 padding-top: 0px;
+                 font-family: 'Cabin',sans-serif, cursive;
+                 margin:0px;
+                  color:#fff;
+                    text-shadow: 1px 1px 0px #000000;}
+
+
+/*----------------------NAV BAR--------------------------------*/
+#navbar { 
+         padding: 0px;
+         height: auto;
+         margin-top: 0px;
+         margin: auto;
+         overflow: auto;
+   text-align: center;
+}    
+
+/*text decoration to remove bullets and place links inline*/
+#navbar li {    display: inline-block;
+/*             border-right: 1px solid rgba(255, 255, 255, 0.4);*/
+            }
+
+/*
+li:last-child {
+  border-right: none;
+}
+*/
+
+
+    /* Links inside the navbar */ 
+ #navbar a {text-decoration: none;
+        color:#ffffff;
+        padding: 15px 16px;
+        font-family: 'Abel',sans-serif,monospace;
+        margin-top: 0px;
+      display: block;
+  
+     
+        }
+
+/* Change background on mouse-over */ 
+#navbar a:hover { 
+  background: #e7bc32; 
+  color: black; 
+  
+} 
+
+
+ #navbar ul { width:100%;
+     background-color: #29497f;
+              position: fixed;
+              z-index:1;
+              list-style: none;
+              margin-top: 0px;
+              margin: 0px;
+overflow: hidden;
+     
+    }
+      
+/*----------------------BODY HEADER NAV--------------------------------*/
+/*----------------------BODY HEADER NAV--------------------------------*/
+/*----------------------BODY HEADER NAV--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------MAIN CONTENT--------------------------------*/
+/*----------------------MAIN CONTENT--------------------------------*/
+/*----------------------MAIN CONTENT--------------------------------*/
+
+/*
+
+#situps {background-image:url(../images/workout.jpeg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 500px;
+        text-decoration: none;
+    }
+*/
+
+
+
+
+#navbar a {font-size: 1.4vw;}
+
+
+
+
+.blockHeader {margin-top: 50px;
+               background-color:rgb(35, 80, 152);
+               padding: 40px;}
+
+.blockHeader h2 {color: #fff;
+                 font-size: 3vw;
+text-transform: uppercase}
+
+/*MN added text-transform for h2 and value for vport*/
+
+#welcomeBlock {margin-top: 0px;
+                width: 100%;}
+
+/*---------------------------------Student Review-------------------------------------------------*/
+
+#StudentReview {background-image:url(../images/WelcomeRVC1.jpg);
+                background-repeat: no-repeat;
+                background-size:100% 100%;
+                height: 500px;
+                border: 6px solid #e7bc32;}
+
+
+#studentText {float: right;
+              background-color: rgba(43, 93, 152, 0.5);
+              padding: 50px;
+              margin-top: 20px;
+
+                    display: inline-block;}
+
+#studentText h2 {color: #fff;
+                 font-size:3vw;
+                 line-height: 3.4vw;}
+
+/*-----------------------------------------------------------------------------*/
+
+
+
+/*---------------------BACKGROUND COLOR CONTAINERS FOR WELCOME BLOCK IMAGES--------------------------*/
+
+.whatCanRVCProvide {float:left;
+                    background-color: rgba(43, 93, 152, 0.5);
+                    padding: 2.5em;
+                    width:100%;
+                    
+                    }
+
+
+.whatCanRVCProvide h2 {font-size: 2.3vw;
+                        color: #fff;
+                        line-height: 2.5vw;}
+
+
+.whatCanRVCProvide-2 {float:left;
+                    background-color: rgba(43, 93, 152, 0.58);
+                    padding: 2.3em;
+                    width:100%;
+                    margin-top:326px;
+                    
+                    }
+
+.whatCanRVCProvide-2 h2 {font-size: 2.3vw;
+                        color: #fff;
+                        line-height: 2.3vw;}
+
+
+
+
+
+
+
+/*----------------Welcome BLOCK IMAGE CONTAINERS-----------------------------------------------------*/
+
+
+#welcome1 {background-image:url(../images/Education2.jpg);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        height: 500px;
+
+        margin-top: 50px;
+            
+                border: 6px solid #e7bc32;
+		  ;
+		
+    }
+#welcome2 {background-image:url(../images/imagination.jpg);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        height: 500px;
+        margin-top: 50px;
+            
+                border: 6px solid #e7bc32;
+		  ;
+		
+    }
+
+
+#benifits {background-image:url(../images/social.jpg);
+        background-repeat: no-repeat;
+  
+        background-size:100% 100%;
+        height: 500px;
+
+              margin-top: 50px;
+  
+  		   border: 6px solid #e7bc32;
+		   ;
+/*		   transform: rotate(1.5deg)*/
+    }
+
+
+
+
+
+#success1  {background-image:url(../images/Success.jpg);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        height: 500px;
+                border: 6px solid #e7bc32;
+ }
+
+#safeSpace1 {background-image:url(../images/residency.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height:  500px;
+         border: 6px solid #e7bc32;
+		
+    }
+
+
+
+
+
+.column50 li {list-style-type: none; }
+
+
+.column33 article {padding-left:33px;}
+
+
+
+.column100-2 figure {margin-top: 50px;}
+
+
+
+
+
+
+/*-----------------------Johns Experience--------------------------*/
+
+article p { font-family: Bowlby, Arial, sans-serif;
+    font-size: 1.3vw; text-indent: 12px;
+    padding-left: 2px} 
+
+article p a:link {text-decoration: none;}
+article p a:hover {color: #e7bc32; }
+
+
+
+
+
+
+
+/*----------------------MAIN CONTENT--------------------------------*/
+/*----------------------MAIN CONTENT--------------------------------*/
+/*----------------------MAIN CONTENT--------------------------------*/
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------CONTAINERS & GALLERY --------------------------------*/
+/*----------------------CONTAINERS & GALLERY--------------------------------*/
+/*----------------------CONTAINERS & GALLERY--------------------------------*/
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {margin:0px;}
+
+
+
+/*Wrapper contains the full web page content*/
+
+.wrapper {
+        width: 80%;
+        margin-left:auto;
+        margin-right: auto;
+        overflow: hidden;
+        border-left-style:ridge;
+        background-color: transparent;
+        box-shadow: 10px 5px 6px #d4d4d4; 
+    }    
+
+/*Wrapper2 contains inner content*/
+
+ .innerContainer {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow: hidden;
+         background-color: #fff;}    
+
+
+
+
+
+
+/*MN I inserted gallery style here*/
+#gallery { position: relative;
+           }
+#gallery ul {list-style-type: none; width: 300px; margin-top: 20px;}
+#gallery li { display: inline; float: left; padding: 10px; border: 1px solid #ddd; /* MN  Gray border */
+  border-radius: 4px;}
+#gallery img { border-style: none;}
+#gallery a { text-decoration: none; font-style: italic;  color: black; font-family: 'Abel',sans-serif,monospace;}
+#gallery span { position: absolute; left: -1000px;
+               opacity: 0;
+              transition:  opacity 2s ease; 
+}
+#gallery a:hover span {     
+			position: absolute;
+			top: 16px;
+			left: 320px; 
+			text-align: center; 
+            opacity: 1; 
+}
+
+
+/*SA I changed "figure #pictures to #gallery figure.  The code was not properly called.*/
+#gallery figure {   position: absolute;
+            padding-top: 16px; /*SA added 16px of padding to the top to match the a:hover span padding of 16px; */
+  
+			left: 320px;  /*changed from 280 to 320px*/
+			text-align: center; 
+            opacity: .25;
+}
+
+
+.column100 {
+  width: 100%;
+  padding: 10px;
+  margin-top:0px;
+
+}
+
+
+.column66 {
+  float: left;
+  width: 66.7%;
+  padding: 0px;
+
+
+}
+.column35 {
+  float: left;
+  width: 35%;
+  padding: 0px;
+  height: 500px;
+}
+.column33 {
+  float: left;
+  width: 33.3%;
+  padding: 0px;
+;
+}
+.column33-R {
+  float: right;
+  width: 33.3%;
+  padding: 0px;
+;
+}
+
+.column33-R2 {
+  float: right;
+  width: 33.4%;
+  padding: 0px;
+;
+}
+
+/*--------------------------------------------------------*/
+/* Creates two equal columns that floats next to each other */
+/*--------------------------------------------------------*/
+
+.column50 {
+  float: left;
+  width: 49.5%;
+  background-color: #fff;
+  background-size:cover;
+    
+}
+/* POOL PIC/ OPEN HOUSE/ CONTACT CONTAINER */
+.column50-2 {
+  float: right;
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 49.5%;
+  background-color:#fff; 
+
+}
+
+/*--------------------------------------------------------*/
+/* Create 1 column that is 100% width and floats left. */
+/*--------------------------------------------------------*/
+
+.column100-2 {
+
+  width: 100%;
+  background-color:#ffffff;
+  margin:0px;
+  margin-bottom: 15px;
+}
+
+
+.image-column100-2
+
+{
+
+  width: 100%;
+  background-color:#ffffff;
+  margin:0px;
+  margin-bottom: 15px;
+}
+
+/*--------------------------------------------------------*/                
+/**/
+/*--------------------------------------------------------*/
+
+
+
+.column10 {
+  float: left;
+  width: 10%;
+}
+
+.column80 {
+  float: left;
+  width: 80%;
+  margin:auto;
+}
+/*---------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------------------*/
+/*--------------------------LIBRARY---Table+Article+UL Code---------------------------*/
+
+
+
+
+
+article ul li { font-family: Bowlby, arial, serif; font-size: 1.1vw;}
+
+li {font-family: Bowlby, Arial, serif}
+
+
+blockquote {font-style: italic;
+text-align: center;
+color: #e7bc32;
+    font-family: Bowlby, arial, serif; 
+    font-size: 1.5vw;;
+}
+
+
+
+table {margin: auto;
+    width: 60%;
+border: 2px solid #e7bc32;
+}
+
+
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+
+
+td, th {padding:5px; font-family: Bowlby, arial, serif; font-size: 1.2vw; border-style: none}
+.altrow { background-color: #EAEAEA}
+table caption {font-family: Bowlby, arial, serif; font-size: 1.3vw; margin-bottom: 10px;}
+
+
+/*--------------------------Embeded Video---------------------------------------------------*/
+
+iframe {margin-left: 30px; padding: 0px; margin-top: 20px;
+align-content:75%;
+  width:50%;
+}
+
+#iframefigcaption {font-weight: bold; color: #002872;
+text-align: left;
+padding-left: 30px}
+
+/*------------------------------------------------------------------------------------------*/
+
+
+
+#pendulumHall {background-image: url(../images/Foucault2.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                height:400px;
+                margin-bottom: 20px;}
+
+.column50 figure {  float: right;
+
+		   background-color: #FFF;
+		   border: 1px solid #CCC;
+		   box-shadow: 5px 5px 5px #828282;
+		
+}
+.column50 figcaption { text-align: center;
+		   font-size: .8em;
+		   font-style: italic;
+
+}
+
+
+
+/*Decoration Divider*/
+
+
+/**/
+
+
+/*
+figure {
+        float:left;
+         width: 100%;
+        }
+*/
+
+figcaption{ text-align: center;
+  font-style: italic;}
+.column80 article {width: 80%;}
+
+
+.informationBlock {padding-left: 20px;
+                   padding-right: 20px;
+                    }
+
+.informationBlock H3 {padding-bottom: 10px;}
+
+.informationBlock P {}
+
+
+.column100-2 H3 {padding-bottom: 10px;}
+
+
+
+/*----------------------CONTAINERS--------------------------------*/
+/*----------------------CONTAINERS--------------------------------*/
+/*----------------------CONTAINERS--------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*end*/
+
+
+#end {margin-bottom: 30px;
+    ;
+    }
+#end h2 {font-size: 2vw;
+        text-align: center;
+        font-family: sans-serif;}
+
+
+
+
+/*----------------------FOOTER--------------------------------*/
+/*----------------------FOOTER--------------------------------*/
+/*----------------------FOOTER--------------------------------*/
+
+
+
+
+footer { text-align: center;
+         font-style:italic; }
+
+.footer-style {  background-color: #29497f;
+               color:#fff;}
+
+
+
+footer ul {list-style-type: none;
+           margin: 0px;
+          }
+footer li { display:inline-block;
+            color:#fff;}
+
+
+footer a {color:#00ecff;
+          text-decoration: none;
+}
+
+
+/*----------------PAGE FONT SIZE FULL SCREEN------------------------*/
+/*----------------PAGE FONT SIZE FULL SCREEN------------------------*/
+/*----------------PAGE FONT SIZE FULL SCREEN------------------------*/
+
+
+/*--------------NAV BAR TEXT----------------*/
+#navbar a {font-size: 1.9vw;}
+/*--------------NAV BAR TEXT----------------*/
+
+
+/*--------------BANNER TEXT-----------------*/
+#heroBanner h1 {font-size: 4vw;}
+/*--------------BANNER TEXT-----------------*/
+
+
+/*--------------BENIFITS OF WORKING OUT List Items-----------------*/
+#benifits ul li {font-size: 2vw;
+                  line-height: 2vw;}
+ /*--------------BENIFITS OF WORKING OUT List Items-----------------*/        
+
+
+ /*--------------WORKOUT CLASSES AVAILABLE TEXT-----------------*/
+#yoga h3 {font-size: 2vw;}
+ /*--------------WORKOUT CLASSES AVAILABLE TEXT-----------------*/     
+
+ /*--------------Article HEADERS-----------------*/        
+article h3 {font-size: 1.8vw;
+            line-height: 3vw;}
+ /*--------------Article HEADERS-----------------1.72
+
+3/*--------------Paragraph Text-----------------*/
+
+p {font-size: .8vw;}
+ /*--------------Paragraph Text-----------------*/
+
+
+/*----------------PAGE FONT SIZE FULL SCREEN------------------------*/
+/*----------------PAGE FONT SIZE FULL SCREEN------------------------*/
+/*----------------PAGE FONT SIZE FULL SCREEN------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------SCREEN RE-SIZE--------------------------------*/
+/*----------------------SCREEN RE-SIZE-------------------------------*/
+/*----------------------SCREEN RE-SIZE--------------------------------*/
+
+@media screen  and (max-width:64em) {
+    
+    .row {width:100%;}
+    
+  .column33 {
+    width: 100%;
+    }
+  
+     .column50{
+    width: 100%;
+    }
+    .column100 {
+    width: 100%;
+    }
+  
+      .column65{
+    width: 100%;
+    }
+      .column35{
+    width: 100%;
+    }
+      .column50-2{
+    width: 100%;
+    }
+     #navbar{
+    width: 100%;
+    }
+.column100-2 {width: 100%;
+           
+              }
+
+  .column66 {
+  width: 100%;
+  padding: 0px;
+
+
+}
+  
+  .column33-R {
+  width: 100%;
+  }
+  
+  .column33-R2 {
+  width: 100%;
+    
+  }
+  
+  .image-column100-2{
+
+  width: 100%;}
+  
+  .innerContainer {padding: 0px; }
+  
+/*Replacement images/Container adjustments for Welcome block for tablets*/
+
+#benifits {background-image:url(../images/social-T1.jpg);}
+#welcome1 {background-image:url(../images/Education-T.jpg);}  
+#welcome1 {margin-top: 50px;}
+#welcome2 {margin-top: 0;}
+#benifits {margin-top: 0;}
+
+  
+}
+
+
+
+
+
+
+/*----------------------SCREEN RE-SIZE/IMAGES TEXT TABLET--------------------------------*/
+/*----------------------SCREEN RE-SIZE/IMAGES TEXT TABLET------------------------------*/
+/*----------------------SCREEN RE-SIZE/IMAGES TEXT TABLET--------------------------------*/
+
+/*Resizes the content for viewing on smaller devices.*/
+
+@media only screen and (max-width:64em) {
+
+  .wrapper {margin-left:0px;
+            margin-right:0px;
+            width: 100%}
+/*--------------NAV BAR TEXT----------------*/
+#navbar a {font-size: 2.5vw;}
+/*--------------NAV BAR TEXT----------------*/
+
+/*--------------BANNER TEXT-----------------*/
+#heroBanner h1 {font-size: 7vw;
+                line-height: 7vw;
+              }
+/*--------------BANNER TEXT-----------------*/
+
+
+   
+article p { font-family: Bowlby, Arial, sans-serif;
+    font-size: 1.8vw; text-indent: 12px;
+    padding-left: 2px} 
+
+ /*--------------Article HEADERS-----------------*/        
+article h3 {font-size: 4vw;
+            line-height: 2vw;
+            margin-top:10px;}
+ /*--------------Article HEADERS-----------------*/
+
+
+ /*--------------Paragraph Text-----------------*/
+
+p {font-size: 2vw;}
+ /*--------------Paragraph Text-----------------*/
+    
+
+/*----------WelcomeBlock Image Text Area----------------------*/
+.whatCanRVCProvide h2 {font-size:4vw;
+                          line-height:4vw;}  
+  
+.whatCanRVCProvide-2 h2 {font-size:4vw;
+                             line-height: 4vw;}  
+/*----------WelcomeBlock Image Text Area----------------------*/
+  
+/*---------------BLOCK HEADERS-------------------*/
+  .blockHeader h2 {font-size:5vw;
+                    line-height: 5vw;
+                    text-align: center;}
+/*---------------BLOCK HEADERS-------------------*/  
+
+
+    #end h2 {font-size: 2.2vw;}
+
+  
+
+  
+ 
+  
+.blockHeader {margin-top: 0px;}
+#welcome1 {margin-top: 0;} /*Removes black/white space from web template for mobile*/
+#welcome2 {margin-top: 0;} /*Removes black/white space from web template for mobile*/
+#benifits {margin-top: 0;} /*Removes black/white space from web template for mobile*/
+#studentText {margin-top:250px;} /*Johns Experience Text Block moved down to see his face.*/
+  
+.whatCanRVCProvide {margin-top: 300px;} /*Moves text-background for welcome block images*/
+
+.whatCanRVCProvide-2 {margin-top: 300px;} /*Moves text-background for welcome block image "imagination"*/
+  
+  #heroImage {margin-top:50px;}  /*moves Hero Image down the page for a better view of the hero banner on smaller device*/
+  
+  
+  
+/*IMAGE GALLERY CANVAS DISPLAY BLOCK*/
+  #gallery {Display: none;}
+  #image-column100-2 {Display: none;}
+  
+
+/*------------FLEX display for image galery-----------------*/
+  
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+  
+  .cell img {
+  display: block;
+}
+
+ .container {}  
+  
+
+.responsive-image {
+  max-width: 100%;
+} 
+
+  
+ 
+/*Add margin to Science and Math center content*/
+.column50 {
+  margin-left: 5px;
+            margin-right:5px;}
+  
+.column50 h3 {margin-bottom: 20px;}
+  
+/* --------------Fig Caption Text for Library images---------------- =*/
+.cell-L figcaption { text-align: center;
+		   font-size: 1.5vw;
+  font-style: italic;}
+  
+/* --------------Fig Caption Text for Library images---------------- =*/
+  
+ /* --------------Library Block Quote Text---------------- =*/ 
+  blockquote {font-size: 1.5vw;}
+  
+ /* --------------Library Block Quote Text---------------- =*/ 
+  
+  
+ /* --------------Library Table Text / Layout---------------- =*/ 
+    
+table {margin: auto;
+    width: 100%;
+border: 2px solid #e7bc32;
+}
+
+td, th {padding:5px; font-family: Bowlby, arial, serif; font-size: 2.0vw; border-style: none}
+.altrow { background-color: #EAEAEA}
+table caption {font-family: Bowlby, arial, serif; font-size: 2.9vw; margin-bottom: 10px;}
+  
+ /* --------------Library Table Text / Layout---------------- =*/   
+  
+
+/*-------------------Health Science UL/LI Text--------------------*/
+
+article ul li { font-family: Bowlby, arial, serif; font-size: 1.8vw;}
+
+li {font-family: Bowlby, Arial, serif}
+  
+/*-------------------Health Science UL/LI Text--------------------*/  
+  
+  
+iframe {margin: 0px; padding: 0; margin-top: 10px;
+align-content: 75%;
+width:100%;
+}
+
+#iframefigcaption {font-weight: bold; color: #002872;
+text-align: center;
+padding-left: 30px}
+
+  
+
+  
+}
+
+
+
+
+
+/*----------------------SCREEN RE-SIZE/IMAGES PHONE--------------------------------*/
+/*----------------------SCREEN RE-SIZE/IMAGES PHONE------------------------------*/
+
+
+@media only screen and (max-width: 38em) {
+
+  .wrapper {margin-left:0px;
+            margin-right:0px;
+            width: 100%}
+  
+/*--------------NAV BAR TEXT----------------*/
+#navbar a {font-size: 2.5vw;
+          Display:inline-block;}
+
+  
+/*--------------BANNER TEXT-----------------*/
+#heroBanner h1 {font-size: 9vw;
+                
+                line-height: 1em;}
+
+
+  
+/*----------Additional Text areas----------------------*/
+.whatCanRVCProvide h2 {font-size:7vw;
+                          line-height:7vw;}  
+  
+.whatCanRVCProvide-2 h2 {font-size:7vw;
+                             line-height: 7vw;}  
+  
+  .blockHeader h2 {font-size:5vw;
+                    text-align: center;}
+
+article h3 {font-size: 4vw;}
+
+p {font-size: 3vw;}
+
+  
+article p { font-family: Bowlby, Arial, sans-serif;
+    font-size: 3vw; text-indent: 12px;
+    padding-left: 2px} 
+  
+  
+  
+/* --------------Fig Caption Text for Library images---------------- =*/
+.cell-L figcaption { text-align: center;
+		   font-size: 3vw;
+  font-style: italic;}
+  
+  
+ /* --------------Library Block Quote Text---------------- =*/ 
+  blockquote {font-size: 3.5vw;}
+  
+  
+ /* --------------Library Table Text / Layout---------------- =*/ 
+    
+table {margin: auto;
+       width: 100%;
+       border: 2px solid #e7bc32;}
+
+td, th {padding:5px; font-family: Bowlby, arial, serif; font-size: 2.5vw; border-style: none}
+.altrow { background-color: #EAEAEA}
+table caption {font-family: Bowlby, arial, serif; font-size: 3.3vw; margin-bottom: 10px;}
+  
+
+
+/*-------------------Health Science UL/LI Text--------------------*/
+
+article ul li { font-family: Bowlby, arial, serif; font-size: 3.1vw;}
+
+li {font-family: Bowlby, Arial, serif}
+  
+/*-------------------Health Science UL/LI Text--------------------*/
+  
+  
+  
+
+  
+
+    
+#benifits {height:500px;} 
+    
+.column50 figure {display:none;}
+    
+#meditationText h4 {
+                line-height: 1em;
+                font-size: 9vw;
+               }    
+  
+  
+  
+  
+/*Replacement images/Container adjustments for Welcome block for phones*/
+  
+#StudentReview {background-image:url(../images/WelcomeRVC1-m.jpg);
+
+  }
+  
+#safeSpace1 {background-image:url(../images/safeSpace.jpg);      }
+  
+#welcome1 {background-image:url(../images/Education-m.jpg);}
+  
+.blockHeader {margin-top: 0px;
+}
+    
+.blockHeader h2{margin-top: 0px;
+       }
+
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+
+#welcome1 {margin-top: 0;} /*Removes black/white space from web template for mobile*/
+#welcome2 {margin-top: 0;} /*Removes black/white space from web template for mobile*/
+#benifits {margin-top: 0;} /*Removes black/white space from web template for mobile*/
+#studentText {margin-top:350px;} /*Johns Experience Text Block moved down to see his face.*/
+  
+.whatCanRVCProvide {margin-top: 300px;}
+
+.whatCanRVCProvide-2 {margin-top: 300px;}
+  
+  #heroImage {margin-top:35px;}
+  
+  
+   .responsive-image {
+  max-width: 100%;
+} 
+
+  
+  .cell {
+    width: 100%;
+  }
+  
+   .responsive-image-L {
+  max-width: 100%;
+} 
+
+  
+  .cell-L {
+    width: 100%;
+  }
+  
+  
+  
+ #end h2 {font-size: 3.5vw;}
+
+  
+  #navbar ul { width:100%; padding-left: 0px; padding-right: 0px; margin-left: 0px; text-align: center;}
+  
+ 
+  #navbar a {
+
+        padding: 5px 5px 5px 5px;}
+    
+  
+  
+}
+

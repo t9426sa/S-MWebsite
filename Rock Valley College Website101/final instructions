@@ -1,0 +1,107 @@
+Final Project
+
+
+
+
+
+>>WELCOME BLOCK
+
+Amazing Education & Innovation
+
+
+Self-Confidence & Imagination
+
+
+Social Cooperation & Collaboration
+
+
+>>IMAGE GALLERY BLOCK
+>>MATH LAB BLOCK
+>>FITNESS LAB BLOCK
+>>MEDICAL CENTER BLOCK
+
+
+
+
+
+
+
+
+Due Wednesday by 10:15pm Points 170 Submitting a text entry box, a website url, or a file upload
+Using the pictures you took in class, as individuals or as Project Teams you will create a "Come to RVC" website. This website will consist of at least 4 in-page-content-blocks (so a 2015+ design nomenclature that focuses on all three browser variants; desktop, tablet and mobile).
+
+    A Come to RVC Welcome block (10 points)
+
+        Pictures with borders (at least two, but you may choose to include more if you care to)
+        Three paragraphs describing a student experience at RVC
+        
+        Appropriate for the content (this is a live page)
+        Tall enough to scroll one full page on the iMacs here in the lab
+    An Image Gallery Page Relating to RVC block (10 points)
+
+        Consisting of 8 to 10 images of your taking
+        Formatted for best loading on the web across all devices
+       Text content to support the images
+        Appropriate for the content (this is a live page)
+        Tall enough to scroll one full page on the iMacs here in the lab
+Remaining Two (2) blocks can reflect content that you choose (10 points total)
+     *           Consisting of 3 paragraphs of text per block
+
+     *           Consisting of at least one image per block
+
+ 
+30pts: Selection of Color and Font
+
+        Font selection conveys look and feel of the site (10 points)
+            Must use fonts imported from Google Font Library 
+            Fonts are legible and add clues to the content to draw users to vital content areas
+        Must have color / size / face additions that indicate the following
+            A new text piece of content on each of your content blocks (5pts over 4 pages)
+        Colors are complimentary and look professional. You are creating a brand with your choices, and that brand has to sell unknown potential future students on RVC. Colors CANNOT follow design from any previous text-based projects (10 points)
+ 
+
+20pts: Look and Feel of the Site
+
+        A stylized TABLE that highlights content for your user in a formatted and easy to read manner (10 points) across all types of browser sizes (must have considerations for all three browser classes)
+        Balance of text (paragraphs) and media (pictures, but may be music, video as well) elements on page on all device classes (5 points)
+        Collection of elements (media, font, color, text, etc) work together on page rather, than against one another, on all device classes (5 points)
+ 
+
+10pts : Navigation
+
+a NAV panel for access to your content blocks for in-page navigation
+
+40pts: Desktop, Tablet and Mobile Optimized
+
+        Create a modern look and feel using a wrapper and other container classes (10 points)
+        CSS descriptions for all three webpage types (traditional desktop, tablet, and mobile) (10 points)
+        Tablet and Mobile descriptions change elements that are not useful / logical with sizing restrictions
+      Tablet or Mobile descriptions MUST remove one container (not the image gallery) and replace it with another (10 points)
+        Relative spacing / sizing to ensure that differences in the resolution of the devices you designed on are not damaging to the content on devices of other resolutions - so % rather than PX etc (10 points)
+40 points : Image Gallery Function Across Devices
+
+        Desktop version has hover type gallery that paints smaller thumbnail images to larger canvas area (10 points)
+        Tablet version changes image size so that each image takes up approximately 40% of the screen (calibrated eyeball measurement), and that 2 images load side by side on tablets. No canvas area or hover over elements to be shown as they will not work on a tablet. (20 points)
+        Mobile version of the site to have images take large portion of the screen (calibrated eyeball measurement) without more than one image per line. (10 points)
+
+(-170pts): Less than Positive message for RVC (Asshole Tax)
+
+ 
+
+Hand in your Projects here.
+
+*** --- Note --- ***
+
+ANY late submission will incur the standard 50% deduction penalty.
+
+ 
+
+*** --- Note --- ***
+
+Anything missing from the projects will be considered a deduction of points. I am looking at these projects the way a client would after final payment has been made. A client isn't chasing after you for stuff, and neither am I.
+
+ 
+
+--- Note ---
+
+If you are handing in the Project as a Project Team you MUST INDIVIDUALLY HAND IN THE PROJECT. Individuals not submitting their own copy of the Project will not be given credit. I am sticking to this!!!
